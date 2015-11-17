@@ -1,0 +1,117 @@
+<html>
+
+	<head>
+		<title> Casa </title>
+
+		<style type="text/css">
+		
+		* {
+			padding:0px;
+			margin:0px;
+			}		
+		
+		#header {
+			margin:auto;
+			width:420px;
+			font-family:Arial, Helvetica, sans-serif;	 		
+		}
+		
+		ul, ol {
+				list-style:none;			
+		}
+		
+		.nav li a {
+			background-color:#000;
+			color:#fff;
+			text-decoration:none;
+			padding:10px 15px;
+			display:block; 		
+		}
+
+		.nav li a:hover {
+			background-color:#434343; 		
+		}		
+		
+		.nav > li {
+			float:left; 		
+		}
+		
+		.nav li ul {
+			display:none;
+			position:absolute;
+			min-height:140px; 		
+		}		
+		
+		.nav li:hover > ul {
+			display:block; 		
+		}
+		
+		.nav li ul li {
+			position:relative; 		
+		}
+		
+		.nav li ul li ul {
+			right:-140px;
+			top:0px; 		
+		}
+		
+		.nav button {
+			display:none;
+			position:absolute;
+			min-height:140px; 			
+		}
+		
+		.nav li:hover > button {
+			display:block;		
+		}
+		
+				
+
+		</style>
+	</head>
+
+	<body bgcolor="black" text="White">
+		
+		<center><h1>Casa Inteligente</h1></center>
+
+		<br>
+		<br>
+		<br>
+		<br>		
+		
+		
+		<div id="header">
+		
+			<ul class="nav"> 
+				<li><a href="">Luces</a>
+					<ul>
+
+						<li><a href="Cuarto.html">Cuarto</a></li>				
+						
+																			
+						<li><a href="Cocina.html">Cocina</a></li>
+								
+												
+						<li><a href="Sala.html">Sala</a></li>
+						
+									
+						<li><a href="Garage.html">Garage</a></li>
+		
+																							
+				 	</ul>					
+				
+				
+				</li>
+
+					
+				<li><a href="">Alarma</a></li>
+				<li><a href="">Jardin</a></li>
+				<li><a href="">Vigilancia</a></li>
+			</ul>		
+		
+		</div>		
+		
+	</body>
+
+
+</html>
